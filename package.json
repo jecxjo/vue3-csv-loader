@@ -1,0 +1,31 @@
+{
+  "name": "vue3-csv-loader",
+  "version": "0.0.0",
+  "description": "A loader for csv files",
+  "main": "dist/index.js",
+  "types": "dist/types/csv.d.ts",
+  "scripts": {
+    "build": "tsc && cpy 'types/**/*.d.ts' dist/types",
+    "build:watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jecxjo/vue3-csv-loader.git"
+  },
+  "keywords": [
+    "vue3",
+    "loader",
+    "csv"
+  ],
+  "author": "Jeff Parent",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/jecxjo/vue3-csv-loader/issues"
+  },
+  "homepage": "https://github.com/jecxjo/vue3-csv-loader#readme",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "cpy-cli": "^4.2.0",
+    "typescript": "^5.1.3"
+  }
+}
